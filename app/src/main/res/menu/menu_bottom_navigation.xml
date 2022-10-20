@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <item
+        android:fillColor="@color/black"
+        android:id="@+id/menuListIcon"
+        android:enabled="true"
+        android:icon="@drawable/ic_list"
+        android:title="Log"
+        />
+
+    <item
+        android:fillColor="@color/black"
+        android:id="@+id/addpostIcon"
+        android:enabled="true"
+        android:icon="@drawable/ic_post_add"
+        android:title="Add Post"
+        />
+
+    <item
+        android:fillColor="@color/black"
+        android:id="@+id/menuDashboardIcon"
+        android:enabled="true"
+        android:icon="@drawable/ic_notes"
+        android:title="Dashboard"
+        />
+
+</menu>
